@@ -217,6 +217,9 @@ public class ParseFeed {
 				route.putProperty("destination", columns[5]);
 				routes.add(route);
 			}
+			if(!columns[7].equals("\\N")){
+				route.putProperty("stops", columns[7]);
+			}
 		}
 			
 		

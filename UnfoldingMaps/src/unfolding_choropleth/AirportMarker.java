@@ -15,8 +15,7 @@ import processing.core.PGraphics;
  *
  */
 public class AirportMarker extends CommonMarker {
-	public static List<SimpleLinesMarker> routes;
-	
+		
 	public AirportMarker(Feature city) {
 		super(((PointFeature)city).getLocation(), city.getProperties());
 	
@@ -30,11 +29,12 @@ public class AirportMarker extends CommonMarker {
 
 	@Override
 	public void showTitle(PGraphics pg, float x, float y) {
-		 // show rectangle with title
+		// show rectangle with title
 		
 		// show routes
 		
 		
 	}
+	
 	
 }
